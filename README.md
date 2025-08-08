@@ -17,8 +17,7 @@ A hybrid recommendation system that integrates sentiment analysis on Egyptian Ar
 - [Installation & Usage](#installation--usage)
 - [Results & Evaluation](#results--evaluation)
 - [Future Enhancements](#future-enhancements)
-- [Author](#author)
-- [License](#license)
+
 
 ---
 
