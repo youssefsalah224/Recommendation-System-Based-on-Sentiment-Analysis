@@ -1,47 +1,52 @@
-# Sentiment_analysis_project_on_egyption_arabic_reviews
+# 🇪🇬 Sentiment-Aware Recommendation System on Egyptian Arabic Reviews
 
+**Arabic NLP • Sentiment Analysis • Machine Learning • Deep Learning**
 
-# steps of the project 
-## 1-dataset 
-     collected from  Twitter and google play about Egyptian companies 
-## 2- Data cleaning 
-```
-     1-headline emojis 
-     2-remove_diacritics
-     3-remove stop words
-```
+A recommendation system powered by sentiment analysis on Egyptian Arabic reviews collected from Twitter and Google Play. This project combines traditional and deep learning models with word embeddings to extract user sentiment and enhance personalized recommendations.
 
-## 3-Convert text data to numerical data 
-```
-     1- TF-IDF 
-     2 - word2vec use average word2vec (features extraction )
-```
-# 4 models
-## 4.1 Traditional machine learning models
-```
-           1-SVM
-           2-decision tree
-           3-random forest
-           4-KNN
-           5-NB 
-           6-LSVM
-```
-## 4.2 Deep learning models 
-           ```
-           1-forward neural network 
-           2-convolution neural network       
-           
-           ```
-## 4.3 Sequential models 
-```
-1-RNN
-2-GRU
-3-LSTM
+---
 
-```
-## 5-best results 
-```
-apply average word2vec for text representation
-use GRU
+## 📑 Table of Contents
 
-```
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Data Cleaning](#data-cleaning)
+- [Feature Extraction](#feature-extraction)
+- [Modeling](#modeling)
+  - [Traditional ML Models](#traditional-ml-models)
+  - [Deep Learning Models](#deep-learning-models)
+  - [Sequential Models](#sequential-models)
+- [Best Results](#best-results)
+- [How to Run](#how-to-run)
+- [Technologies Used](#technologies-used)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
+- [License](#license)
+
+---
+
+## 🧠 Overview
+
+This project builds a hybrid **sentiment-based recommendation system** for Egyptian companies, using **natural language processing (NLP)** on Arabic user reviews. We preprocess the text, convert it to numerical vectors, classify its sentiment using various models, and apply these insights in a recommendation pipeline.
+
+---
+
+## 🗃️ Dataset
+
+- **Sources**:  
+  - Twitter  
+  - Google Play  
+- **Language**: Egyptian Arabic  
+- **Domain**: Reviews about Egyptian companies  
+- The dataset was manually labeled and cleaned to be ready for NLP-based sentiment analysis.
+
+---
+
+## 🧹 Data Cleaning
+
+Preprocessing is essential when dealing with Arabic text, especially dialects like Egyptian Arabic.
+
+```text
+1. Remove headline emojis
+2. Remove Arabic diacritics (e.g., َ ً ُ ٌ etc.)
+3. Remove Arabic stop words (common but non-informative words)
