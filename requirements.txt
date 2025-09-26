@@ -1,0 +1,17 @@
+joblib
+scikit-learn
+matplotlib
+seaborn
+pandas
+numpy
+simpletransformers
+transformers
+pyarabic
+nltk
+tweepy
+torch
+stop-words
+rarfile
+fuzzywuzzy
+streamlit==1.13.0
+plotly
