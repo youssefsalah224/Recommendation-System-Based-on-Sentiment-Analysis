@@ -9,8 +9,9 @@ torch
 scikit-learn
 rarfile
 fuzzywuzzy
-streamlit==1.13.0
+streamlit
 plotly
 joblib
 matplotlib
 simpletransformers
+
